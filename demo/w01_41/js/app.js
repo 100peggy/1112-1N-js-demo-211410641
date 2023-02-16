@@ -26,12 +26,10 @@ let currentResult = defaultResult;
 function getUserInput() {
     return parseInt(userInput.value);
 }
-
 function outputResult(result, text) {
     currentResultOutput.textContent = result;
     currentCalculationOutput.textContent = text;
 }
-
 // operand1 operator operand2  0 + 5
 function add() {
     const operand1 = currentResult;
