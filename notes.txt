@@ -1,0 +1,12 @@
+git config --global user.email "candy0903575071@gmail.com"
+git config --global user.name "100peggy"
+git pull 
+
+git status
+git add .
+git commit -m "log messages"
+git push 
+
+git log --pretty=format:"%h%x09%an%x09%ad%x09%s" --after="2023-2-15"
+
+sass --watch scss:css
