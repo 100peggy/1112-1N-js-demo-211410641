@@ -69,6 +69,7 @@ allLi.forEach( (item) => {
             if(checkWin(o)) {
                 winMessage(o);
                 done = true;
+                reset()
             }
        } else if (turn % 2 == 1) {
             item.textContent = 'X';
@@ -76,12 +77,14 @@ allLi.forEach( (item) => {
             if(checkWin(x)){
                 winMessage(x);
                 done = true;
+                reset()
             }
        }
        if(!done && turn < 8) {
             turn++;
        } else if(!done && turn >= 8) {
             alert('tie');
+            reset()
        }
     } );
 });
