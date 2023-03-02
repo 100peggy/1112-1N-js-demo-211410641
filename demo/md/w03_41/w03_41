@@ -27,3 +27,19 @@ a14931d 100peggy1~      Thu Mar 2 19:56:36 2023 +0800   W03-P2: show reviews[0] 
 ### W03-P4: implement prev button and show the sequence in console.log
 
 ![W03-p4.png]()
+
+### W03-P5: implement "suprise me" button and show the sequence in console.log
+
+![W03-p5.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w03-p5.png?t=2023-03-02T12%3A41%3A25.891Z)
+
+```
+7e14f68 100peggy1~      Thu Mar 2 20:53:44 2023 +0800   W03-P5: implement "suprise me" button and show the sequence in console.log
+```
+
+### W03-P6: add your info as reviews[0] and show it
+
+![W03-p6.png]()
+
+### W03-logs
+
+![W03-logs.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w03-logs.PNG?t=2023-03-02T12%3A57%3A54.075Z)
