@@ -68,3 +68,8 @@ nextBtn.addEventListener('click', () => {
   // console.log('currentItem', reviews[currentItem]);
   showReview(currentItem);
 });
+
+randomBtn.addEventListener('click', () => {
+  currentItem = Math.floor(Math.random() * reviews.length);
+  showReview(currentItem);
+})
