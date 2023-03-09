@@ -1,5 +1,5 @@
 git config --global user.email "candy0903575071@gmail.com"
-git config --global user.name "100peggy"
+git config --glo
 git pull 
 
 git status
