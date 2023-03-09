@@ -1,92 +1,86 @@
-// local reviews data
-const reviews = [
-  
-  {
-    id: 1,
-    name: '陳鄭升jack',
-    job: 'developer',
-    img: 'https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w03-p4.png?t=2023-03-02T13%3A23%3A02.059Z',
-    text: "I'm jack"
-  },
-  {
-    id: 2,
-    name: 'susan smith',
-    job: 'web developer',
-    img: 'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
-    text: "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
-  },
-  {
-    id: 3,
-    name: 'anna johnson',
-    job: 'web designer',
-    img: 'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883409/person-2_np9x5l.jpg',
-    text: 'Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.',
-  },
-  {
-    id: 4,
-    name: 'peter jones',
-    job: 'intern',
-    img: 'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
-    text: 'Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.',
-  },
-  {
-    id: 5,
-    name: 'bill anderson',
-    job: 'the boss',
-    img: 'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg',
-    text: 'Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ',
-  },
+const menu = [
+    {
+        id: 1,
+        title: 'egg. salad',
+        category: 'breakfast',
+        price: 12.59,
+        img: './images/item-1.jpeg',
+        remote_img: '',
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi illo, aperiam similique odit corporis dolores neque eveniet quam beatae sunt obcaecati, odio provident nam nesciunt recusandae, et ea placeat totam?'
+    },
+    {
+        id: 2,
+        title: 'muffin',
+        category: 'lunch',
+        price: 16.59,
+        img: './images/item-2.jpeg',
+        remote_img: '',
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi illo, aperiam similique odit corporis dolores neque eveniet quam beatae sunt obcaecati, odio provident nam nesciunt recusandae, et ea placeat totam?'
+    },
+    {
+        id: 3,
+        title: 'hamburger',
+        category: 'dinner',
+        price: 14.59,
+        img: './images/item-3.jpeg',
+        remote_img: '',
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi illo, aperiam similique odit corporis dolores neque eveniet quam beatae sunt obcaecati, odio provident nam nesciunt recusandae, et ea placeat totam?'
+    },
+    {
+        id: 4,
+        title: 'buttermilk pancakes',
+        category: 'breakfast',
+        price: 15.59,
+        img: './images/item-4.jpeg',
+        remote_img: '',
+        desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur magni necessitatibus quasi alias repellat distinctio odio praesentium doloribus nihil eum optio, eius sapiente delectus obcaecati? Porro officia consequuntur laborum placeat?'
+    },
+    {   
+        id: 5,
+        title: 'dinner double',
+        category: 'dinner',
+        price: 13.95,
+        img: './images/item-5.jpeg',
+        remote_img: '',
+        desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam dolorem temporibus accusamus molestiae obcaecati nobis dolore nisi, id minima distinctio reprehenderit incidunt porro consequatur quidem libero nulla adipisci dolorum soluta.'
+    },
+    {
+        id: 6,
+        title: 'godzilla milkshake',
+        category: 'shakes',
+        price: 13.99,
+        img: './images/item-6.jpeg',
+        remote_img: '',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad voluptas repellendus, sapiente cupiditate amet illum. Recusandae quidem enim impedit vitae illum obcaecati adipisci dolorum officia, commodi, fuga odio quisquam.'
+    }
 ];
 
-const img = document.querySelector('#person-img');
-const author = document.querySelector('#author');
-const job = document.querySelector('#job');
-const info = document.querySelector('#info');
+const sectionCenter = document.querySelector('.section-center');
+const btnContainer = document.querySelector('.btn-container');
 
-const prevBtn = document.querySelector('.prev-btn');
-const nextBtn = document.querySelector('.next-btn');
-const randomBtn = document.querySelector('.random-btn');
+const displayMenuItems = (menu) => {
+    let displayMenu = menu.map( (item) => {
+        return `
+        <article class="menu-item">
+        <img src=${item.img} alt=${item.title} class="photo" />
+        <div class="item-info">
+          <header>
+            <h4>${item.title}</h4>
+            <h4 class="price">${item.price}</h4>
+          </header>
+          <p class="item-text">
+            ${item.desc}
+          </p>
+        </div>
+      </article>`
+    });
 
-
-let currentItem = 0;
-
-// function showReview() {
-
-
-//}
-
-const showReview = (person) => {
-  const item = reviews[person];
-  console.log('item', item);
-  img.src = item.img;
-  author.textContent = item.name;
-  job.textContent = item.job;
-  info.textContent = item.text;
+    console.log('displayMenu before join', displayMenu);
+    displayMenu = displayMenu.join('');
+    console.log('displayMenu after join', displayMenu);
+    sectionCenter.innerHTML = displayMenu;
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-  showReview(currentItem);
+    displayMenuItems(menu);
 });
-
-nextBtn.addEventListener('click', () => {
-  currentItem++;
-  if(currentItem >= reviews.length ) {
-    currentItem = 0;
-  }
-  // console.log('currentItem', reviews[currentItem]);
-  showReview(currentItem);
-});
-
-prevBtn.addEventListener('click', () => {
-  currentItem--;
-  if(currentItem < 0) {
-    currentItem = reviews.length -1
-  }
-
-  showReview(currentItem);
-})
-
-randomBtn.addEventListener('click', () => {
-  currentItem = Math.floor(Math.random() * reviews.length);
-  showReview(currentItem);
-})
