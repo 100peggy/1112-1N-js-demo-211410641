@@ -20,21 +20,31 @@
 
 ### W04-P3: show all filter buttons into html (section-center)including (all, breakfast, lunch, dinner, shakes) 
  
-![w04-p3-1.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w04-p3-1%20.png?t=2023-03-09T12%3A28%3A54.240Z)
-![w04-p3-2.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w04-p3-2%20.png?t=2023-03-09T12%3A28%3A54.240Z)
+![w04-p3-1.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w04-p3-1.png?t=2023-03-09T16%3A50%3A49.249Z)
+![w04-p3-2.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w04-p3-2.png?t=2023-03-09T16%3A50%3A49.249Z)
 ```
 954c5e9 unknown Fri Mar 10 00:41:28 2023 +0800  W04-P3: show all filter buttons into html (section-center)including (all, breakfast, lunch, dinner, shakes)
 ```
 
 ### W04-P4: get buttons from menu array, add 'all' at the beginning (section-center)
  
-![w04-p4-1.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w04-p4-1%20.png?t=2023-03-09T12%3A28%3A54.240Z)
-![w04-p4-2.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w04-p4-2%20.png?t=2023-03-09T12%3A28%3A54.240Z)
+![w04-p4-1.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w04-p4-1.png?t=2023-03-09T16%3A50%3A49.249Z)
+![w04-p4-2.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w04-p4-2.png?t=2023-03-09T16%3A50%3A49.249Z)
 ```
 c215817 unknown Fri Mar 10 00:47:08 2023 +0800  W04-P4: get buttons from menu array, add 'all' at the beginning (section-center)
 ```
 
 ### w04-logs
-![w04-logs.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w04-logs%20.png?t=2023-03-09T12%3A28%3A54.240Z)
+![w04-logs.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w04-logs.png?t=2023-03-09T16%3A50%3A49.249Z)
 ```
+400e6b7 unknown Fri Mar 10 00:49:34 2023 +0800  W04:logs
 ```
+
+$git log --pretty=format:"%h%x09%an%x09%ad%x09%s" --after="2023-3-08"
+400e6b7 unknown Fri Mar 10 00:49:34 2023 +0800  W04:logs
+c215817 unknown Fri Mar 10 00:47:08 2023 +0800  W04-P4: get buttons from menu array, add 'all' at the beginning (section-center)
+954c5e9 unknown Fri Mar 10 00:41:28 2023 +0800  W04-P3: show all filter buttons into html (section-center)including (all, breakfast, lunch, dinner, shakes)
+c4805a0 unknown Fri Mar 10 00:35:31 2023 +0800  W04-P2: show all data in array menu into html (section-center)
+5377c98 unknown Fri Mar 10 00:29:39 2023 +0800  W04-P2: show all data in array menu into html (section-center)
+efb68b1 100peggy        Thu Mar 9 22:03:43 2023 +0800   w04-logs
+521ce14 100peggy        Thu Mar 9 20:27:07 2023 +0800   W04-P1: add 3 images of my meals to menu array
