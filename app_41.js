@@ -74,14 +74,14 @@ const displayMenuItems = (menu) => {
         </div>
       </article>`
     });
-    console.log('displayMenu before join', displayMenu);
+   // console.log('displayMenu before join', displayMenu);
     displayMenu = displayMenu.join('');
-    console.log('displayMenu after join', displayMenu);
+   // console.log('displayMenu after join', displayMenu);
     sectionCenter.innerHTML = displayMenu;
 }
 
-const categories = ['all', 'breakfast', 'lunch', 'dinner', 'shakes'];
-// const categories = ['all', ...new Set(menu.map((item) => item.category))];
+//const categories = ['all', 'breakfast', 'lunch', 'dinner', 'shakes'];
+const categories = ['all', ...new Set(menu.map((item) => item.category))];
 
 
 const displayMenuButtons = (data) => {
