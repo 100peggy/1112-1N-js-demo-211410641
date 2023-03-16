@@ -2,9 +2,16 @@
 
 ### W05-P1: use JavaScript module to import and export!
 
-![w05-p1.png]
-(https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w05-p1.png?t=2023-03-16T10%3A48%3A14.075Z)
+![w05-p1.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w05-p1.png?t=2023-03-16T10%3A48%3A14.075Z)
 
 ```
 56aa264 unknown Thu Mar 16 18:50:36 2023 +0800  W05-P1: use JavaScript module to import and export!
+```
+
+### W05-P2: implement all filter buttons with all tests in console.log
+
+![w05-p2.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w05-p2.png?t=2023-03-16T11%3A56%3A42.659Z)
+
+```
+ae86aa4 unknown Thu Mar 16 19:44:15 2023 +0800  W05-P2: implement all filter buttons with all tests in console.log
 ```
