@@ -15,3 +15,24 @@
 ```
 ae86aa4 unknown Thu Mar 16 19:44:15 2023 +0800  W05-P2: implement all filter buttons with all tests in console.log
 ```
+
+### W05-P3: show modal and overlay when pressing a button
+ 
+![w05-p3.png]
+(https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w05-p3.png)
+
+```
+a846dcb unknown Thu Mar 16 21:12:25 2023 +0800  W05-P3: show modal and overlay when pressing a button
+```
+
+### W05-P4: call closeModal to close modal, overlay; press ESC key will call closeModal as well
+ 
+![w05-p4.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w05-p4.png?t=2023-03-16T17%3A49%3A39.653Z)
+
+```
+66046bf unknown Fri Mar 17 01:56:17 2023 +0800  W05-P4: show modal and overlay when pressing a button
+```
+
+### W05-P5:  press 3 different buttons can show 3 different modals
+ 
+![w05-p5.png]()
