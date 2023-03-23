@@ -5,7 +5,7 @@
 ![w06-p1.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w06-p1.png?t=2023-03-23T11%3A21%3A31.460Z)
 
 ```
-$ git log --pretty=format:"%h%x09%an%x09%ad%x09%s" --after="2023-3-22"
+e652294 unknown Thu Mar 23 19:22:51 2023 +0800  W06-P1: Run w3school scores.find();
 ```
 
 ### W06-P2: temperature convert from C to F
@@ -14,7 +14,12 @@ $ git log --pretty=format:"%h%x09%an%x09%ad%x09%s" --after="2023-3-22"
 
 ```
 512fbf7 unknown Thu Mar 23 19:26:46 2023 +0800  W06-P1: Run w3school scores.find();
-$ git log --pretty=format:"%h%x09%an%x09%ad%x09%s" --after="2023-3-22"
 ```
 
+### W06-P3: import students and sdata array and do sorting, find the highest and lowest score
 
+![w06-p3.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w06_p3.png?t=2023-03-23T12%3A28%3A18.594Z)
+
+```
+4c7621d unknown Thu Mar 23 20:29:10 2023 +0800  W06-P3: import students and sdata array and do sorting, find the highest and lowest score
+```
