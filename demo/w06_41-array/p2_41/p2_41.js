@@ -33,10 +33,3 @@ const averageStudents = students.reduce( (total, student, index) => {
     return total + student.score;
 }, 0) / students.length;
 console.log('Students average', averageStudents);
-
-console.log('students', students);
-const average = students.reduce( (total, student, index) => {
-    console.log('index total', index, total);
-    return total + student.score;
-}, 0) / students.length;
-console.log('average', averageStudents);
