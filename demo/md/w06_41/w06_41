@@ -36,8 +36,24 @@ e652294 unknown Thu Mar 23 19:22:51 2023 +0800  W06-P1: Run w3school scores.find
 
 C2F
 
-![w06-p5-1.png]()
+![w06-p5-1.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w06-p5-1.png?t=2023-03-25T15%3A28%3A08.838Z)
+
+```
+a8717a0 unknown Sat Mar 25 23:29:59 2023 +0800  W06-P5: Temperature convert C2F(), F2C() using Web interface
+```
 
 F2C
 
-![w06-p5-2.png]()
+![w06-p5-2.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w06-p5-2.png?t=2023-03-25T15%3A30%3A51.932Z)
+
+```
+f8dd535 unknown Sat Mar 25 23:31:31 2023 +0800  W06-P5: Temperature convert C2F(), F2C() using Web interface
+```
+
+### W06-logs
+
+![w06-p6.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w06-p6.PNG?t=2023-03-25T15%3A33%3A21.394Z)
+
+```
+534c52a unknown Sat Mar 25 23:34:02 2023 +0800  W06-logs
+```
