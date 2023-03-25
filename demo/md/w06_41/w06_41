@@ -18,8 +18,12 @@ e652294 unknown Thu Mar 23 19:22:51 2023 +0800  W06-P1: Run w3school scores.find
 
 ### W06-P3: import students and sdata array and do sorting, find the highest and lowest score
 
-![w06-p3.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w06_p3.png?t=2023-03-23T12%3A28%3A18.594Z)
+![w06-p3.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w06-p3.png?t=2023-03-25T14%3A11%3A28.002Z)
 
 ```
 4c7621d unknown Thu Mar 23 20:29:10 2023 +0800  W06-P3: import students and sdata array and do sorting, find the highest and lowest score
 ```
+
+### W06-P4: compute the average of students and sdata array
+
+![w06-p4.png]()

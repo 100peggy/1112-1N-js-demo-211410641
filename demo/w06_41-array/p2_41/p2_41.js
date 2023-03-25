@@ -23,7 +23,6 @@ console.log('students2 original', students2);
 
 students2.sort(function(a,b){return a.score - b.score});
 console.log('students2 sorted', students2);
-
 console.log(`The lowest score: ${students2[0].score}`);
 console.log(`The highest score: ${students[students2.length-1].score}`);
 
@@ -33,3 +32,10 @@ const averageStudents = students.reduce( (total, student, index) => {
     return total + student.score;
 }, 0) / students.length;
 console.log('Students average', averageStudents);
+
+console.log('sdata sorted', sdata);
+const averageSdata = sdata.reduce((total, sdata, index) => {
+    console.log('index total', index, total);
+    return total + sdata;
+},0) / sdata.length;
+console.log('averageSdata', averageSdata);
