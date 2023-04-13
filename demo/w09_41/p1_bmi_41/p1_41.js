@@ -89,5 +89,4 @@ bmi summary:
     lower: ${lowerCount}
     normal: ${normalCount}
     higher: ${higherCount}
-
 `);
