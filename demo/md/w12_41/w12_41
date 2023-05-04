@@ -7,3 +7,11 @@
 ```
 3f9e3061        unknown Thu May 4 19:21:42 2023 +0800   W12-P1: call back hell DOM demo
 ```
+
+### W12-P2: use promise to solve the cb hell problem
+
+![w12-p2.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w12-p2.png?t=2023-05-04T12%3A21%3A28.225Z)
+
+```
+6334e946        unknown Thu May 4 20:22:29 2023 +0800   W12-P2: use promise to solve the cb hell problem
+```
