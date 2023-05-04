@@ -15,3 +15,11 @@
 ```
 6334e946        unknown Thu May 4 20:22:29 2023 +0800   W12-P2: use promise to solve the cb hell problem
 ```
+
+### W12-P3: use async/await to solve the cb hell problem
+
+![w12-p3.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w12-p3.png?t=2023-05-04T12%3A46%3A49.390Z)
+
+```
+2c7160df        unknown Thu May 4 20:47:23 2023 +0800   W12-P3: use async/await to solve the cb hell problem
+```
