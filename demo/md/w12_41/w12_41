@@ -37,3 +37,11 @@
 ```
 3a60ad2d        unknown Thu May 4 21:27:41 2023 +0800   W12-P4: xhr, get sample.txt
 ```
+
+### W12-P5: xhr, get people.json, and show names in browser
+
+![w12-p5.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w12-p5.png?t=2023-05-04T13%3A48%3A15.801Z)
+
+```
+46cc6029        unknown Thu May 4 21:48:55 2023 +0800   W12-P5: xhr, get people.json, and show names in browser
+```
