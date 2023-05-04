@@ -23,3 +23,17 @@
 ```
 2c7160df        unknown Thu May 4 20:47:23 2023 +0800   W12-P3: use async/await to solve the cb hell problem
 ```
+
+### W12-P4: xhr, get sample.txt
+
+#### success reading
+
+![w12-p4-1.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w12-p4-1.png?t=2023-05-04T13%3A26%3A50.631Z)
+
+#### fail reading
+
+![w12-p4-2.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w12-p4-2.png?t=2023-05-04T13%3A26%3A56.783Z)
+
+```
+3a60ad2d        unknown Thu May 4 21:27:41 2023 +0800   W12-P4: xhr, get sample.txt
+```
