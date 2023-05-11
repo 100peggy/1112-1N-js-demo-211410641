@@ -15,3 +15,11 @@
 ```
 392621da        unknown Thu May 11 20:22:23 2023 +0800  W13-P2: Show /api/data.json, img using remote_url
 ```
+
+### W13-P2: 建立 supabase 資料庫
+
+![w13-p2.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w13-p3.png?t=2023-05-11T13%3A03%3A54.288Z)
+
+```
+bfb0b639        unknown Thu May 11 21:04:23 2023 +0800  W13-P2: 建立supabase資料庫
+```
