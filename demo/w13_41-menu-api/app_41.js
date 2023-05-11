@@ -1,7 +1,8 @@
 const sectionCenter = document.querySelector('.section-center');
-const btnContainer = document.querySelector('.btn-container');
+const supabase_key = ""
 
 // import {menu} from './data.js'
+=''
 const url = './api/data.json';
 
 let menu;
