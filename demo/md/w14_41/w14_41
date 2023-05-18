@@ -16,11 +16,11 @@
 
 #### SportsDB
 
-![w14-p2-2.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w14-p2-2.png?t=2023-05-18T12%3A03%3A54.610Z)
+![w14-p2-2.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w14-p2-2.png?t=2023-05-18T13%3A02%3A14.636Z)
 
 #### AudioDB
 
-![w14-p2-3.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w14-p2-3.png?t=2023-05-18T12%3A04%3A01.365Z)
+![w14-p2-3.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w14-p2-3.png?t=2023-05-18T13%3A02%3A22.577Z)
 
 ```
 0457a78d        unknown Thu May 18 20:04:54 2023 +0800  W14-P2: Get data from MealDB, SportDB, AudioDB one by one as in P1
@@ -28,6 +28,8 @@
 
 ### W14-logs
 
-```
+![w14-log.png](https://thkjzjmdttdkwotgyiyj.supabase.co/storage/v1/object/public/demo-41/md_1N_img/w14-log.PNG?t=2023-05-18T12%3A21%3A48.796Z)
 
+```
+1f3865bc        unknown Thu May 18 20:22:51 2023 +0800  W14-logs
 ```
