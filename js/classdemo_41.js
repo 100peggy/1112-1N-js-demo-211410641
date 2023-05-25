@@ -52,6 +52,9 @@ const showClassDemo = (week) => {
       case 'w9-md':
         showDemo.innerHTML = `<iframe src='./demo/md/w09/w09_xx.html' width="100%" height="100%" />`;
         break;
+      case 'w15':
+        showDemo.innerHTML = `<iframe src='./demo/md/w15_xx.html' width="100%" height="100%" />`;
+        break;
     }
   };
   
