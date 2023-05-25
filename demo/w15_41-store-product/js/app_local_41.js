@@ -17,14 +17,14 @@ const fetchData = async() => {
         console.log(err);
     }
 }
-
 const displayProducts = (products) => {
-    let displayContent = products.map( (product) => {
-        const {company, name, price, image } = product.fields;
+    let displayContent = products.map( (product, index) => {
+        const {company, name, price } = product.fields;
+        let image = `./images/product-${index+1}.jpg`;
         return `
         <div class="single-product">
         <img
-          src=${image[0].url}
+          src=${image}
           class="single-product-img img"
           alt=${name}
         />
@@ -32,17 +32,11 @@ const displayProducts = (products) => {
           <h5 class="name">${name}</h5>
           <span class="price">$${price/100}</span>
         </footer>
-      </div>
-        `
-         
-        
+      </div>      `          
     }).join('');
-
-    console.log('displayContent', displayContent);
+    // console.log('displayContent', displayContent);
     pContainer.innerHTML = displayContent;
 }
-
-
 window.addEventListener('DOMContentLoaded', async () => {
     allProducts = await fetchData();
     console.log('all products', allProducts);
