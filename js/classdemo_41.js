@@ -53,7 +53,7 @@ const showClassDemo = (week) => {
         showDemo.innerHTML = `<iframe src='./demo/md/w09/w09_41.html' width="100%" height="100%" />`;
         break;
       case 'w15':
-        showDemo.innerHTML = `<iframe src='./demo/md/w15_41.html' width="100%" height="100%" />`;
+        showDemo.innerHTML = `<iframe src='./demo/w15_41-store-product/' width="100%" height="100%" />`;
         break;
     }
   };
