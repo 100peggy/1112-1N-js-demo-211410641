@@ -78,6 +78,7 @@ const addMealToDOM = (meal) => {
 }
 // Event listeners
 submit.addEventListener('click', searchMeal);
+const randomBtn = document.querySelector('.random-btn');
 
 mealsEl.addEventListener('click', e => {
     //console.log('e.path',e.composedPath());
@@ -95,3 +96,14 @@ mealsEl.addEventListener('click', e => {
         getMealById(mealID);
     }
 });
+
+const getRandomMeal = () => {
+    fetch('https://www.themealdb.com/api/json/v1/1/random.php')
+      .then(response => response.json())
+      .then(data => {
+        const meal = data.meals[0];
+        addMealToDOM(meal);
+      });
+  };
+
+  randomBtn.addEventListener('click', getRandomMeal);
