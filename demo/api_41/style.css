@@ -1,0 +1,39 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.pets {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.pet {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.pet img {
+    max-width: 100%;
+}
+
+.pet h2 {
+    margin-top: 0;
+}
+
+.pet p {
+    margin-bottom: 0;
+}
+
+.pet-description {
+    display: none;
+}
+
+.pet-description.show {
+    display: block;
+}
