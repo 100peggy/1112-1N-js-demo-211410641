@@ -37,3 +37,29 @@
 .pet-description.show {
     display: block;
 }
+
+.evaluation-button {
+    display: none;
+}
+
+.evaluation-button.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.rating-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.rating-label {
+    margin-right: 5px;
+}
+
+.rating-input {
+    width: 30px;
+}
